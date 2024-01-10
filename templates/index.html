@@ -1,0 +1,32 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/style.css">
+    <title>Iris Species Classification</title>
+</head>
+<body>
+    <form action="/predict" method="POST">
+        <h1>Iris Species Classification</h1>
+        <label for="sepalLength">Sepal Length</label>
+        <input type="text" class="input" id="sepalLength" name="sepalLength"> <br>
+
+        <label for="sepalWidth">Sepal Width</label>
+        <input type="text" class="input" id="sepalWidth" name="sepalWidth"> <br>
+
+        <label for="petalLength">Petal Length</label>
+        <input type="text" class="input" id="petalLength" name="petalLength"> <br>
+
+        <label for="petalWidth">Petal Width</label>
+        <input type="text" class="input" id="petalWidth" name="petalWidth"> <br>
+
+        <label for="result">Class</label>
+        {{result}} <br>
+
+        <input type="submit" class="button" value="Predict">
+    </form>
+</body>
+</html>
