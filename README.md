@@ -46,7 +46,7 @@ These instructions will help you set up and run the project on your local machin
 
 2. Navigate to the project directory:
     ```bash
-    cd iris-species-classification
+    cd IrisClassification
 
 3. Install the required dependencies:
     ```bash
